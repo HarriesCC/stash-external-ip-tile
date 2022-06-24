@@ -3,6 +3,6 @@ $httpClient.get("https://api.my-ip.io/ip", function (error, response, data) {
         title: "当前 IP 地址",
         content: data,
         backgroundColor: "#663399",
-        icon: "network.badge.shield.half.filled",
+        icon: "network",
     })
 })
