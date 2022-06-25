@@ -1,7 +1,8 @@
-$httpClient.get("https://api.my-ip.io/ip", function (error, response, data) {
+$httpClient.get("http://ip-api.com/json/", function (error, response, data) {
+    let content =  data["as"] + "\r\n" + data["query"]
     $done({
         title: "当前 IP 地址",
-        content: data,
+        content: content,
         backgroundColor: "#663399",
         icon: "network",
     })
