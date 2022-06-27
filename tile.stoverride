@@ -11,5 +11,5 @@ tiles:
 
 script-providers:
   External-IP-Tile:
-    url: https://raw.githubusercontent.com/HarriesCC/stash-external-ip-tile/main/external-ip-address-tile.js
+    url: https://raw.githubusercontent.com/HarriesCC/stash-external-ip-tile/main/ip-info-tile.js
     interval: 86400
